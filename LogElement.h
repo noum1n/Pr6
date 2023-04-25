@@ -36,3 +36,6 @@ bool LogElement::getResNand() {
 bool LogElement::getResNor() {
     return not (In1 or In2);
 }
+bool LogElement::getResXor() {
+    return In1 xor In2;
+}
