@@ -7,4 +7,10 @@ public:
     bool C;
 };
 
+int main() {
+   
+    return 0;
+}
+
+
 
