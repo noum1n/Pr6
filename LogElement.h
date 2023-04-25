@@ -24,3 +24,6 @@ void LogElement::setIn2( bool newIn2){
 bool LogElement::getResOr(){
 	return In1 or In2;
 };	
+bool LogElement::getResNot(){
+	return not In1;
+};	
