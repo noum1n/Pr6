@@ -21,3 +21,6 @@ void LogElement::setIn1( bool newIn1){
 void LogElement::setIn2( bool newIn2){
 	In2=newIn2;
 };
+bool LogElement::getResOr(){
+	return In1 or In2;
+};	
