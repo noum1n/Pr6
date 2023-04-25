@@ -13,6 +13,10 @@ int main() {
     element.B = false;
     element.C = true;
 
+    std::cout << "A = " << element.A << std::endl;
+    std::cout << "B = " << element.B << std::endl;
+    std::cout << "C = " << element.C << std::endl;
+
     return 0;
 }
 
