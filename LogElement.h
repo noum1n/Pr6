@@ -15,3 +15,6 @@ public:
 	bool getResNor;
  	bool getResXor;
 }; 
+void LogElement::setIn1( bool newIn1){
+	In1=newIn1;
+};
