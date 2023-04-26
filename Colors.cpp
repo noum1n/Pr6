@@ -9,4 +9,10 @@ public:
 	};
 };
 
+	int main() {
+		TPen pen("FFFFFF");
+		std::cout <<" Colour = "<< pen.Fcolor<<std::endl;
+	
+	return 0;
+}
 
